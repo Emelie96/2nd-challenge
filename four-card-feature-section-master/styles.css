@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin: 50px auto; /*50px is for the margin top, auto is for the sides*/
+  width: 80%;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 100;
+  color: black;
+  opacity: 0.6;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1rem;
+}
+
+header p {
+  max-width: 80%;
+  /*border: black 2px solid;*/
+  color: black;
+  opacity: 0.6;
+  font-size: 13px;
+  margin: auto;
+}
+
+span {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.box {
+  background-color: white;
+  position: relative;
+  padding: 30px;
+  margin: 7px;
+  width: 25em; /* 400px */
+  border-radius: 6px;
+}
+
+.sup {
+  transform: translateX(4em);
+  transform: translateY(10em);
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.tb {
+  transform: translateY(2em);
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.cal {
+  transform: translateX(3em);
+  transform: translateY(10em);
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.kar {
+  transform: translateY(2em);
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+img {
+  margin-left: auto;
+  display: block;
+  padding-top: 30px;
+}
+
+.container h3 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.container p {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
